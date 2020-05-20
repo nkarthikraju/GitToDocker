@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY package.json .
 
 # Run the command inside your image filesystem.
-#RUN npm install
+RUN npm install
 
 # Inform Docker that the container is listening on the specified port at runtime.
 #EXPOSE 8080
